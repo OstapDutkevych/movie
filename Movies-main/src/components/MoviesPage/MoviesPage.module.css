@@ -1,0 +1,92 @@
+.form {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.formText {
+  width: 400px;
+  height: 35px;
+  border: 3px solid #ff6b08;
+  border-radius: 10px;
+  outline: none;
+  margin-right: 20px;
+}
+
+.formText::placeholder {
+  color: #3f4143;
+}
+
+.button {
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #ff6b08;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  box-shadow: 3px 4px 10px 0px rgba(0, 0, 0, 0.2);
+
+  transition: background-color 250ms ease-in-out;
+}
+
+.button:hover {
+  background-color: #b14b06;
+  transition: background-color 250ms ease-in-out;
+}
+
+.title {
+  text-align: center;
+  color: #ff6b08;
+  margin-bottom: 30px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.listItem {
+  width: 300px;
+  height: 480px;
+  margin-bottom: 50px;
+  overflow: hidden;
+
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 12%), 0 4px 4px rgb(0 0 0 / 6%),
+    1px 4px 6px #ff6b08;
+}
+
+.listItem:hover .image {
+  transform: scale(1.07);
+  transition: transform 250ms ease-in-out;
+}
+
+.listItem:not(:nth-child(3n)) {
+  margin-right: 50px;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  max-height: 420px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.text {
+  margin: 10px;
+  text-align: center;
+  color: #ff6b08;
+  font-size: 20px;
+  font-style: none;
+  font-weight: 500;
+  line-height: 1.2;
+  text-decoration: none;
+}

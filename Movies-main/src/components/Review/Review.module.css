@@ -1,0 +1,28 @@
+.listItem:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.title {
+  text-align: center;
+  color: #3f4143;
+  margin-bottom: 30px;
+}
+
+.subTitle {
+  color: #ff6b08;
+  margin-bottom: 10px;
+}
+
+.text {
+  color: #3f4143;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+
+.error {
+  text-align: center;
+  font-size: 40px;
+  color: #3f4143;
+  font-style: italic;
+  margin-bottom: 50px;
+}

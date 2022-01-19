@@ -1,0 +1,82 @@
+.button {
+  margin-top: 10px;
+  margin-bottom: 36px;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  width: 150px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #ff6b08;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 3px 4px 10px 0px rgba(0, 0, 0, 0.2);
+
+  transition: background-color 250ms ease-in-out;
+}
+
+.button:hover {
+  background-color: #b14b06;
+  transition: background-color 250ms ease-in-out;
+}
+
+.wrapper {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.imageWrapper {
+  max-width: 475px;
+  margin-right: 50px;
+}
+
+.textWrapper {
+  max-width: 475px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.image {
+  border-radius: 5px;
+}
+
+.title {
+  color: #ff6b08;
+  margin-bottom: 30px;
+}
+
+.text {
+  color: #3f4143;
+}
+
+.subTitle {
+  margin-bottom: 10px;
+  margin-top: 30px;
+  color: #3f4143;
+}
+
+.list {
+  display: flex;
+}
+
+.listItem:not(:last-child) {
+  margin-right: 30px;
+}
+
+.link {
+  display: inline-block;
+  padding: 15px;
+  font-weight: 500;
+  color: #3f4143;
+  font-size: 18px;
+}
+
+.activeLink {
+  color: #ff6b08;
+}
